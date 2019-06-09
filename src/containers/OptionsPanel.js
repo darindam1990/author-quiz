@@ -15,7 +15,7 @@ const OptionsPanel = (state) => {
 
 const validate = (event, id, cb) => {
     if (event.target.classList.contains('Option')) {
-        fetch('http://localhost:3001/api/v1/quiz/validate/', {
+        fetch('/api/v1/quiz/validate/', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

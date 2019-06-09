@@ -11,7 +11,7 @@ class App extends React.Component {
   };
 
   componentWillMount() {
-    fetch('http://localhost:3001/api/v1/quiz/')
+    fetch('/api/v1/quiz/')
     .then(response => response.json())
     .then(data => {
       this.setState({
