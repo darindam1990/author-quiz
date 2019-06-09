@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -30,4 +32,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.Header {
+  padding: 1em 1.5em;
+  background-color: #262731;
+  font-size: 1.8em;
+}
+
+.Success {
+  background-color: #48960C;
+}
+
+.Failure {
+  background-color: #F54F47;
+}
+
+.NextBtn {
+  padding: 1em 1.5em;
+  background: #0065AB;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 1em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.NextBtn:disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.PicSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.PicPanel {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.QuizTitle {
+  display: flex;
+  padding: 2em 2em 0 2em;
+  font-size: 1.2em;
 }

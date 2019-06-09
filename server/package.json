@@ -1,0 +1,17 @@
+{
+    "name": "author-quiz",
+    "version": "0.0.0",
+    "description": "Sample Code",
+    "main": "server.js",
+    "author": {
+        "name": "Ari D",
+        "email": "adas1990.gatech@gmail.com"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "4.16.4",
+        "lodash": "4.17.11"
+    }
+}

@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "url": "https://image.shutterstock.com/image-photo/william-shakespeare-15641616-engraved-by-450w-81840886.jpg",
+    "options": ["Macbeth", "Inferno", "Old man and the sea"],
+    "correct_option": "Macbeth"
+}, {
+    "id": 2,
+    "url": "https://image.shutterstock.com/image-photo/american-writer-mark-twain-aka-450w-252133927.jpg",
+    "options": ["The Shining", "The Adventures Huckleberry Finn", "Don Quixote"],
+    "correct_option": "The Adventures Huckleberry Finn"
+}, {
+    "id": 3,
+    "url": "https://image.shutterstock.com/image-photo/stephen-king-premiere-manchurian-candidate-450w-160851770.jpg",
+    "options": ["IT", "A Tale of Two Cities", "Harry Potter & the Chambers of Secrets"],
+    "correct_option": "IT"
+}, {
+    "id": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg",
+    "options": ["The Famous Five", "Treasure Island", "Lord of the Rings"],
+    "correct_option": "Treasure Island"
+}, {
+    "id": 5,
+    "url": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNTQ2ODcxMzA5/jane-austen-9192819-1-402.jpg",
+    "options": ["The Hobbit", "Animal Farm", "Pride & Prejudice"],
+    "correct_option": "Pride & Prejudice"
+}, {
+    "id": 6,
+    "url": "https://img.fantasticfiction.com/images/0/8_1.jpg",
+    "options": ["The Hitchhiker's Guide to the Galaxy", "Matilda", "Angels & Demons"],
+    "correct_option": "The Hitchhiker's Guide to the Galaxy"
+}, {
+    "id": 7,
+    "url": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NTU2MzI0OTQxMDA2MzQ3/leo-tolstoyjpg.jpg",
+    "options": ["Anna Karenina", "Alice in Wonderland", "The Ant and the Grasshopper"],
+    "correct_option": "Anna Karenina"
+}, {
+    "id": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Salman_Rushdie.jpg",
+    "options": ["Midnight's Children", "East of Eden", "The Kite Runner"],
+    "correct_option": "Midnight's Children"
+}, {
+    "id": 9,
+    "url": "https://bonfirestories.ca/wp-content/uploads/2017/11/george-orwell-e1510064595399.jpg",
+    "options": ["1984", "Gone with the wind", "Eat Pray Love"],
+    "correct_option": "1984"
+}, {
+    "id": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Conan_doyle.jpg/200px-Conan_doyle.jpg",
+    "options": ["The Hound of Baskervilles", "Unaccustomed Earth", "Casino Royale"],
+    "correct_option": "The Hound of the Baskervilles"
+}]
