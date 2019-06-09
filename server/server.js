@@ -12,10 +12,6 @@ app.use(function (req, res, next) {
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
-app.get('/', (req, res) => {
-    res.sendFile('index.html', { root: '../public' });
-});
 app.get('/api/v1/quiz', (req, res) => {
     res.json(quizData.map(o => _.omit(o, ['correct_option'])));
 });
@@ -27,5 +23,10 @@ app.post('/api/v1/quiz/validate', (req, res) => {
     } else {
         res.json({ success: false });
     }
+});
+// The "catchall" handler: for any request that doesn't
+// match one above, send back React's build/index.html file.
+app.get('*', (req, res) => {
+    res.sendFile('index.html', { root: '../build' });
 });
 app.listen(process.env.PORT || 3001)
