@@ -46,6 +46,6 @@
 }, {
     "id": 10,
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Conan_doyle.jpg/200px-Conan_doyle.jpg",
-    "options": ["The Hound of Baskervilles", "Unaccustomed Earth", "Casino Royale"],
+    "options": ["The Hound of the Baskervilles", "Unaccustomed Earth", "Casino Royale"],
     "correct_option": "The Hound of the Baskervilles"
 }]
