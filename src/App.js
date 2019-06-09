@@ -10,7 +10,7 @@ class App extends React.Component {
     success: undefined
   };
 
-  componentWillMount() {
+  componentDidMount() {
     fetch('/api/v1/quiz/')
     .then(response => response.json())
     .then(data => {
