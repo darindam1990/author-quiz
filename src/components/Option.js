@@ -8,7 +8,7 @@ const optionStyle = {
     borderRadius: '3px',
     marginBottom: '1em',
     cursor: 'pointer',
-    minWidth: '24em'
+    // minWidth: '24em'
 };
 
 const Option = (state) => {

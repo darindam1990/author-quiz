@@ -10,9 +10,9 @@ const Main = (state) => {
     if (state.question) {
         return <div className={"flex flex-col " + state.class}>
             <QuizTitle current={state.current} total={state.total} />
-            <div className="flex">
+            <div className="flex Responsive_Ct">
                 <PicPanel url={state.question.url} />
-                <div style={ {flex: 2, marginTop: '12em', marginLeft: '12em'} }>
+                <div style={ {flex: 1}}>
                     <OptionsPanel
                         id={state.question.id}
                         options={state.question.options}

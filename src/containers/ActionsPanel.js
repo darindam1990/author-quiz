@@ -5,7 +5,8 @@ const actionsStyle = {
     display: 'flex',
     justifyContent: 'flex-end',
     alignItems: 'flex-start',
-    padding: '0em 2em'
+    padding: '0em 2em',
+    marginBottom: '2em'
 };
 
 const ActionsPanel = (state) => {
